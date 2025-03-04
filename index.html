@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Klinik Sumber Sehat Ngayung</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/Logo Klinik.png" rel="icon">
+    
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>X7JW+CGH, Ngayung, Kec. Maduran, Kabupaten Lamongan, Jawa Timur 62261</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Senin - Minggu : Buku 24 Jam</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+0813-3616-0149</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <!-- Instagram -->
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href="https://www.instagram.com/yourusername" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!-- Facebook -->
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href="https://www.facebook.com/yourusername" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <!-- YouTube -->
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href="https://www.youtube.com/c/yourchannelname" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <!-- WhatsApp -->
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-0" href="https://wa.me/6281336160149" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+        <!-- Navbar Start -->   
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary">
+                <img src="img/Logo Klinik.png" class="me-3" style="height: 55px;">
+                <strong>Klinik Sumber Sehat</strong>
+            </h2>            
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Beranda</a>
+                <a href="about.html" class="nav-item nav-link">Tentang Kami</a>
+                <a href="service.html" class="nav-item nav-link">Melayani</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Halaman</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Fiture</a>
+                        <a href="team.html" class="dropdown-item">Jadwal Dokter</a>
+                        <a href="appointment.html" class="dropdown-item">Janji Tamu</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimoni</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informasi</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="info_layanan.html" class="dropdown-item">Info Layanan</a>
+                        <a href="artikel.html" class="dropdown-item">Artikel Kesehatan</a>
+                        <a href="contact.html" class="dropdown-item">Kontak</a>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                .btn-whatsapp {
+                    background-color: #198754;
+                    color: white;
+                    transition: 0.3s;
+                }
+                
+                .btn-whatsapp:hover {
+                    background-color: #157347;
+                    color: white;
+                }
+            </style>
+            
+            <a href="https://wa.me/6281336160149" target="_blank" class="btn btn-whatsapp rounded-0 py-4 px-lg-5 d-none d-lg-block">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+
+    <!-- Header Start -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">  
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="img/carousell-1.jpg" class="d-block w-100" alt="Slide 1">
+                <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+                    <h1 class="display-4 fw-bold">KLINIK PRATAMA SUMBER SEHAT DESA NGAYUNG</h1>
+                    <h5>Menerima Pelayanan kesehatan terbaik untuk Anda</h5>
+                </div>
+            </div>
+    
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="img/carousell-2.jpg" class="d-block w-100" alt="Slide 2">
+                <div class="position-absolute top-0 start-50 translate-middle-x text-center text-white mt-4">
+                    <h1 class="display-4 fw-bold">Dokter Profesional & Berpengalaman</h1>
+                    <h5>Dokter Profesional & Berpengalaman</h5>
+                </div>
+            </div>
+    
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="img/carousell-3.jpeg" class="d-block w-100" alt="Slide 3">
+                <div class="position-absolute top-0 start-50 translate-middle-x text-center text-white mt-4">
+                    <h1 class="display-4 fw-bold">Layanan Medis Lengkap</h1>
+                    <h5>Kami menyediakan berbagai layanan medis untuk keluarga Anda</h5>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Tombol Navigasi -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <style>
+        .carousel-item {
+            transition: transform 2.5s ease-in-out;
+        }
+    </style>
+    <!-- Header End -->
+
+    <!-- Keunggulan Start -->
+    <div class="advantages-section">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h2>Keunggulan Kami</h2>
+        </div>
+        <div class="advantages-container">
+            <div class="advantage-item">
+                <i class="fas fa-hospital"></i>
+                <h3>Fasilitas yang Lengkap dan Nyaman</h3>
+                <p>Kami menyediakan fasilitas modern dan lengkap untuk kenyamanan serta kebutuhan pasien.</p>
+            </div>
+            <div class="advantage-item">
+                <i class="fas fa-heart"></i>
+                <h3>Mengedepankan Pelayanan yang Prima</h3>
+                <p>Pelayanan diberikan dengan sepenuh hati, mengutamakan kecepatan, keramahan, dan profesionalisme.</p>
+            </div>
+            <div class="advantage-item">
+                <i class="fas fa-user-md"></i>
+                <h3>Tenaga Medis yang Profesional</h3>
+                <p>Tim dokter dan perawat berpengalaman serta kompeten di bidangnya untuk memastikan penanganan terbaik.</p>
+            </div>
+            <div class="advantage-item">
+                <i class="fas fa-clock"></i>
+                <h3>Pelayanan 24/7</h3>
+                <p>Klinik siap melayani pasien sepanjang hari, termasuk layanan darurat kapan saja dibutuhkan.</p>
+            </div>
+        </div>
+    </div>    
+    <!-- Keunggulan End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex flex-column">
+                        <img class="img-fluid rounded w-75 align-self-end" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="img/about-1.jpg" alt="" style="margin-top: -25%;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <p class="d-inline-block border rounded-pill py-1 px-4">Tentang Kami</p>
+                    <h1 class="mb-4">Mengapa Anda Harus Mempercayai klinik Pratama Sumber Sehat Sebagai Tempat Kesehatan Anda? Ketahui Tentang Kami!</h1>
+                    <p>Klinik Pratama Sumber Sehat Desa Ngayung menawarkan layanan kesehatan profesional dengan tenaga medis 
+                        berpengalaman dan fasilitas memadai. Kami mengutamakan pelayanan ramah, cepat, dan tepat bagi setiap pasien.
+                    </p>
+                    <p class="mb-4">Selain pengobatan, kami juga fokus pada pencegahan penyakit melalui edukasi dan pemeriksaan 
+                        berkala. Dengan standar tinggi dan harga terjangkau, kami siap menjadi mitra kesehatan Anda.
+                    </p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>Pelayanan kesehatan yang berkualitas</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>Hanya Dokter yang Berkualitas</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>Profesional Penanganan Medis</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Melayani</p>
+                <h1>Solusi Kesehatan</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-bed-pulse text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Rawat Inap</h4>
+                        <p class="mb-4">Layanan medis di mana pasien menginap di fasilitas medis seperti 
+                            klinik ini mendapatkan pengawasan intensif dan perawatan staf medis
+                            Diberikan kepada pasien dengan penyakit yang memerlukan pemantauan 
+                            lebih lanjut, prosedur medis khusus, atau pemulihan pasca operasi.
+                        </p>
+                        <a class="btn" href="https://wa.me/6281336160149" target="_blank">
+                            <i class="fa fa-plus text-primary me-3"></i>Read More
+                        </a> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-ambulance text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">UGD 24 Jam</h4>
+                        <p class="mb-4">Layanan gawat darurat yg tersedia sepanjang hari buat menangani 
+                            syarat medis darurat. Didukung sang energi medis profesional & alat-alat 
+                            lengkap, UGD siap menaruh penanganan cepat & sempurna bagi pasien pada situasi kritis.
+                        </p>
+                        <a class="btn" href="https://wa.me/6281336160149" target="_blank">
+                            <i class="fa fa-plus text-primary me-3"></i>Read More
+                        </a> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-user-md text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Poli Umum</h4>
+                        <p class="mb-4">layanan medis utama yang menyediakan pemeriksaan, diagnosis, dan pengobatan bagi 
+                            pasien dengan berbagai keluhan kesehatan umum. Di klinik kami, Poli Umum dilengkapi dengan 
+                            tenaga medis profesional yang siap memberikan pelayanan terbaik untuk Anda dan keluarga.</p>
+                            <a class="btn" href="https://wa.me/6281336160149" target="_blank">
+                                <i class="fa fa-plus text-primary me-3"></i>Read More
+                            </a> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-user-md text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Poli KIA & KB</h4>
+                        <p class="mb-4"> layanan yang berfokus pada kesehatan ibu hamil, ibu menyusui, bayi, 
+                            serta perencanaan keluarga. Kami berkomitmen untuk memberikan pelayanan terbaik 
+                            guna memastikan kesehatan ibu dan anak tetap terjaga.</p>
+                            <a class="btn" href="https://wa.me/6281336160149" target="_blank">
+                                <i class="fa fa-plus text-primary me-3"></i>Read More
+                            </a> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-baby text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Persalinan</h4>
+                        <p class="mb-4">memberikan pelayanan persalinan yang aman, nyaman, dan profesional 
+                            bagi ibu serta bayi. Dengan tenaga medis berpengalaman dan fasilitas yang lengkap, 
+                            kami siap membantu Anda melalui proses persalinan dengan penuh perhatian dan kasih sayang.</p>
+                            <a class="btn" href="https://wa.me/6281336160149" target="_blank">
+                                <i class="fa fa-plus text-primary me-3"></i>Read More
+                            </a>                            
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-tooth text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Poli Gigi</h4>
+                        <p class="mb-4"> layanan kesehatan gigi dan mulut dengan tenaga medis profesional 
+                            dan peralatan modern. Kami berkomitmen untuk memberikan perawatan terbaik guna 
+                            menjaga kesehatan gigi Anda serta mencegah berbagai masalah gigi dan gusi.</p>
+                            <a class="btn" href="https://wa.me/6281336160149" target="_blank">
+                                <i class="fa fa-plus text-primary me-3"></i>Read More
+                            </a> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-user-md text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Laboratium</h4>
+                        <p class="mb-4">layanan pemeriksaan medis yang akurat dan terpercaya. Dengan dukungan 
+                            teknologi modern dan tenaga ahli profesional, kami siap membantu dalam mendeteksi 
+                            berbagai kondisi kesehatan secara dini agar Anda mendapatkan penanganan yang tepat.</p>
+                            <a class="btn" href="https://wa.me/6281336160149" target="_blank">
+                                <i class="fa fa-plus text-primary me-3"></i>Read More
+                            </a> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-wave-square text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">EKG</h4>
+                        <p class="mb-4"> pemeriksaan medis yang digunakan untuk merekam aktivitas listrik jantung. 
+                            Pemeriksaan ini sangat penting untuk mendeteksi gangguan jantung sejak dini, sehingga 
+                            tindakan medis yang tepat dapat segera diberikan.</p>
+                            <a class="btn" href="https://wa.me/6281336160149" target="_blank">
+                                <i class="fa fa-plus text-primary me-3"></i>Read More
+                            </a> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-user-nurse text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Kontrol Ibu hamil</h4>
+                        <p class="mb-4">Layanan untuk memantau perkembangan janin, mendeteksi risiko 
+                            kehamilan, serta memberikan edukasi seputar persalinan dan perawatan bayi.</p>
+                            <a class="btn" href="https://wa.me/6281336160149" target="_blank">
+                                <i class="fa fa-plus text-primary me-3"></i>Read More
+                            </a> 
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-primary overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <p class="d-inline-block border rounded-pill text-light py-1 px-4">Fiture</p>
+                        <h1 class="text-white mb-4">Mengapa Memilih Kami!</h1>
+                        <p class="text-white mb-4 pb-2">  
+                            karena Kami mengutamakan kualitas, profesionalisme, dan kepuasan pelanggan. 
+                            Dengan tim ahli dan teknologi terbaru, kami memberikan layanan terbaik 
+                            dan hasil optimal. Komitmen kami adalah inovasi dan kepercayaan, menjadikan 
+                            kami mitra andal untuk kebutuhan Anda.
+                        </p>
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
+                                        <i class="fa fa-medal text-primary fs-4"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-white mb-2">Pengalaman</p>
+                                        <h5 class="text-white mb-0">Dokter</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
+                                        <i class="fa fa-star text-primary fs-4"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-white mb-2">Kualitas</p>
+                                        <h5 class="text-white mb-0">Layanan</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
+                                        <i class="fa fa-smile text-primary fs-4"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-white mb-2">Positif</p>
+                                        <h5 class="text-white mb-0">Konsultasi</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
+                                        <i class="fa fa-history text-primary fs-4"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-white mb-2">24 Jam</p>
+                                        <h5 class="text-white mb-0">Dukungan</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/Fiture.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Dokter</p>
+                <h1>Dokter Kami yang Berpengalaman</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Baris Pertama (3 Dokter) -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team1.png" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>dr. Tita Rizki Meilasari</h5>
+                            <p class="text-primary">Setiap Hari (Pagi, Sore)</p>
+                            <p>Pagi (06.00 - 08.00 WIB)</p>
+                            <p>Sore (15.00 - 21.00 WIB)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team2.png" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>dr. Teti Puspitasari</h5>
+                            <p class="text-primary">Setiap Hari (Pagi, Sore)</p>
+                            <p>Pagi (06.00 - 08.00 WIB)</p>
+                            <p>Sore (15.00 - 21.00 WIB)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team3.png" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>dr. Nasrul An Nafiq</h5>
+                            <p class="text-primary">Setiap Hari (Pagi, Sore)</p>
+                            <p>Pagi (06.00 - 08.00 WIB)</p>
+                            <p>Sore (15.00 - 21.00 WIB)</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Baris Kedua (2 Dokter) -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team4.png" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>drg. Fathien</h5>
+                            <p class="text-primary">Senin, Rabu, Jum'at</p>
+                            <p>16.00 - 20.00 WIB</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team5.png" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>drg. Meita Sahara</h5>
+                            <p class="text-primary">Setiap Hari (Pagi)</p>
+                            <p>09.00 - 12.00 WIB</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.0s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team6.png" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Munjiati, A.md.Keb</h5>
+                            <p class="text-primary">Setiap Hari (Pagi, Sore)</p>
+                            <p>Pagi (08.00 - 12.00 WIB)</p>
+                            <p>Sore (16.00 - 20.00 WIB)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- Team End -->
+
+
+        <!-- Appointment Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="text-center mb-4">
+                            <p class="d-inline-block border rounded-pill py-1 px-4">Konsultasi Dokter</p>
+                        </div>
+                        <div class="text-center mb-4">
+                            <video width="476" height="269" controls autoplay muted poster="img/thumbnail.jpg">
+                                <source src="img/Video/PELAYANAN.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>                        
+                        <div class="bg-light rounded d-flex align-items-center p-5 mb-4">
+                            <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                                <i class="fa fa-phone-alt text-primary"></i>
+                            </div>
+                            <div class="ms-4">
+                                <p class="mb-2">Hubungi Kami Sekarang</p>
+                                <h5 class="mb-4">+0813-3616-0149</h5>
+                            </div>
+                        </div>
+                        <div class="bg-light rounded d-flex align-items-center p-5">
+                            <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                                <i class="fa fa-envelope-open text-primary"></i>
+                            </div>
+                            <div class="ms-4">
+                                <p class="mb-2">Kirimkan email kepada kami sekarang</p>
+                                <h5 class="mb-4">kliniksumbersehatlmg@gmail.com</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <form>
+                            <div class="text-setart mb-4">
+                                <h1>Layanan Konsultasi Dokter, Bisa Dimanapun dan Kapanpun</h1>
+                            </div>
+                            <div style="text-align: left;">
+                                <p>Di era digital saat ini, layanan kesehatan semakin berkembang untuk memenuhi kebutuhan masyarakat yang semakin dinamis. Salah satu terobosan yang memberikan kemudahan bagi banyak orang adalah layanan konsultasi dokter secara online. Layanan ini memungkinkan siapa saja untuk berkonsultasi dengan tenaga medis profesional tanpa harus datang langsung ke klinik atau rumah sakit. Kemudahan ini tidak hanya menghemat waktu, tetapi juga memberikan fleksibilitas yang sangat dibutuhkan, terutama bagi mereka yang memiliki jadwal padat atau keterbatasan mobilitas.</p>
+                                <p>Melalui layanan konsultasi dokter online, pasien dapat memperoleh saran medis, diagnosa awal, hingga rekomendasi pengobatan langsung dari dokter yang kompeten. Dengan memanfaatkan teknologi komunikasi seperti video call, telepon, atau pesan teks, konsultasi dapat dilakukan kapan saja dan di mana saja. Hal ini menjadi solusi praktis untuk berbagai kondisi kesehatan yang memerlukan penanganan cepat atau pemantauan rutin. Selain itu, layanan ini juga membantu mengurangi antrean di fasilitas kesehatan, sehingga memberikan pengalaman yang lebih nyaman bagi pasien.</p>
+                                <p>Layanan konsultasi dokter secara online telah membawa revolusi dalam dunia kesehatan, memberikan kemudahan, fleksibilitas, dan efisiensi yang sangat dibutuhkan di era modern. Dengan akses yang lebih luas dan proses yang lebih cepat, setiap orang dapat memperoleh perawatan medis berkualitas kapan saja dan di mana saja. Didukung oleh teknologi canggih dan tenaga medis profesional, layanan ini tidak hanya membantu mengatasi masalah kesehatan dengan lebih praktis, tetapi juga meningkatkan kesadaran masyarakat akan pentingnya menjaga kesehatan.</p>
+                            </div>
+                            <div class="mt-3">
+                                <button class="btn btn-success w-100 py-3" type="submit">Hubungi Kami</button>
+                            </div>                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <!-- Appointment End -->
+
+
+        <!--- Slider Start-->
+    <div class="slider-container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <p class="d-inline-block border rounded-pill py-1 px-4">Promo</p>
+            <h1>Klinik Pratama Rawat Inap "Sumber Sehat"</h1>
+        </div>
+        </header>
+        <!--   === Section Header Ends ===   -->
+        <!--   === Slider Starts ===   -->
+        <div class="slider">
+            
+            <div class="slider-item">
+                <img src="img/images/image-1.jpg">
+            </div>
+    
+            <div class="slider-item">
+                <img src="img/images/image-2.jpg">
+            </div>
+    
+            <div class="slider-item">
+                <img src="img/images/image-3.jpg">
+            </div>
+    
+            <div class="slider-item">
+                <img src="img/images/image-4.jpg">
+            </div>
+    
+            <div class="slider-item">
+                <img src="img/images/image-5.jpg">
+            </div>
+    
+            <div class="slider-item">
+                <img src="img/images/image-6.jpg">
+            </div>
+    
+            <div class="slider-item">
+                <img src="img/images/image-7.jpg">
+            </div>
+    
+            <div class="slider-item">
+                <img src="img/images/image-8.jpg">
+            </div>
+        </div>
+        <div class="navigation-btns">
+        <i class="fas fa-arrow-left" id="prev_btn"></i>
+        <i class="fas fa-arrow-right" id="next_btn"></i>
+    </div>
+    </div>   
+    <!-- Slider End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Testimoni</p>
+                <h1>Apa Kata Pasien Kami!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-1.jpg" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>"Klinik ini sangat bersih dan nyaman. Stafnya melayani dengan penuh perhatian, 
+                            dan obat yang diberikan sangat efektif. 
+                            Saya merasa lebih baik setelah berobat di sini!"
+                        </p>
+                        <h5 class="mb-1">Rina, 28 tahun</h5>
+                        <span class="fst-italic">Pasien</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-2.jpg" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>
+                            "Saya sangat puas dengan pelayanan di Klinik Sumber Sehat Ngayung.
+                            Dokternya ramah dan profesional, serta penjelasannya sangat jelas.
+                            Proses pendaftaran juga cepat dan mudah!"                        
+                        </p>
+                        <h5 class="mb-1">Andi, 35 tahun</h5>
+                        <span class="fst-italic">Pasien</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-3.jpg" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>"Pelayanan di klinik ini luar biasa! Dokter dan perawatnya sangat peduli dengan pasien. 
+                            Saya sangat merekomendasikan Klinik Sumber Sehat Ngayung untuk keluarga dan teman!"
+                        </p>
+                        <h5 class="mb-1">Budi, 42 tahun</h5>
+                        <span class="fst-italic">Pasien</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Lokasi Start-->
+    <section class="location-section">
+        <div class="loc-container">
+            <div class="location-content">
+                <div class="location-text">
+                    <h1>Lokasi</h1>
+                    <h2>Klinik Pratama Rawat Inap Sumber Sehat</h2>
+                    <p>
+                        Klinik Sumber Sehat Ngayung adalah fasilitas layanan kesehatan yang berkomitmen memberikan pelayanan medis berkualitas dan terjangkau bagi masyarakat. Dengan tenaga medis profesional dan fasilitas modern, klinik ini melayani berbagai kebutuhan kesehatan, termasuk pemeriksaan umum, rawat inap, layanan kesehatan ibu dan anak, serta konsultasi spesialis. Mengutamakan kenyamanan pasien, klinik ini menyediakan lingkungan yang ramah dan bersih.
+                    </p>
+                    <p>
+                        Selain itu, pelayanan cepat dan ramah menjadi prioritas utama untuk memastikan setiap pasien mendapatkan penanganan terbaik. Klinik Sumber Sehat Ngayung hadir sebagai mitra kesehatan yang siap mendukung kualitas hidup masyarakat dengan layanan terpercaya.
+                        <strong>Terakreditasi Paripurna oleh Lafkespri IGD 24 JAM Ds. Ngayung 03/01 Kec. Maduran Kab. Lamongan.</strong>
+                    </p>
+                </div>
+                <div class="location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.9179026203306!2d112.29634779999999!3d-7.0189362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77eda5691ca09b%3A0xbaaa10663bda614e!2sKLINIK%20SUMBER%20SEHAT%20NGAYUNG!5e0!3m2!1sid!2sid!4v1740465488381!5m2!1sid!2sid" 
+                    width="600" height="450" style="border:0;" 
+                    allowfullscreen="" loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Lokasi End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark-blue text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Alamat</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>
+                        X7JW+CGH, Ngayung, Kec. Maduran, Kabupaten Lamongan, Jawa Timur 62261
+                        </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+0813-3616-0149</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>kliniksumbersehatlmg@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-facebook"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Layanan</h5>
+                    <a class="btn btn-link" href="">UGD 24 Jam</a>
+                    <a class="btn btn-link" href="">Poli Umum</a>
+                    <a class="btn btn-link" href="">Poli Gigi</a>
+                    <a class="btn btn-link" href="">Kontrol Ibu hamil</a>
+                    <a class="btn btn-link" href="">Poli KIA & KB</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Tautan Cepat</h5>
+                    <a class="btn btn-link" href="">Tentang Kami</a>
+                    <a class="btn btn-link" href="">Hubungi Kami</a>
+                    <a class="btn btn-link" href="">Layanan Kami</a>
+                    <a class="btn btn-link" href="">Syarat & Ketentuan</a>
+                    <a class="btn btn-link" href="">Mendukung</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Layanan Kesehatan Terpercaya untuk Masyarakat</h5>
+                    <p>
+                        pelayanan kesehatan yang berkualitas dan terjangkau, Klinik Sumber Sehat  
+                        hadir sebagai solusi bagi masyarakat di wilayah Ngayung dan sekitarnya. 
+                    </p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Login Dulu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .bg-dark-blue {
+                background-color: #1E2B4B; /* Warna biru tua */
+            }
+        </style>
+
+    </div>
+    <!-- Footer End -->
+
+    <!-- Chat Start -->
+    <div class="chat-container">
+        <p class="chat-title">Chat & Konsultasi Dokter disini!</p>
+        <div class="chat-buttons">
+            <a href="tel:+6281336160149" class="btn btn-primary">
+                <i class="fas fa-phone"></i> Telepon
+            </a>
+            <a href="https://wa.me/6281336160149" target="_blank" class="btn btn-success">
+                <i class="fab fa-whatsapp"></i> Whatsapp
+            </a>
+        </div>
+    </div>    
+    <!-- Chat End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
